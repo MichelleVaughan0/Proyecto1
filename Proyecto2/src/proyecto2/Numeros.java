@@ -25,7 +25,7 @@ public class Numeros {
         List<Integer> numeros = new ArrayList<>();
 
         for (int i = numero1 + 1; i < numero2; i++) {
-            if(i % 2 == 0 && i!= 0)
+            if(i%2 !=0)
             numeros.add(i);
         }
 
