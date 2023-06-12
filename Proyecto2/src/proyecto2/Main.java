@@ -15,11 +15,12 @@ public class Main {
     public static void main(String[] args) throws Exception {
         Scanner ingreso = new Scanner (System.in);
         
+        System.out.println("Impresora de números");
         System.out.print("Ingrese número 1: ");
         int numero1 = ingreso.nextInt();
         System.out.print("Ingrese número 2: ");
         int numero2 = ingreso.nextInt();
-        
+        System.out.println("NÚMEROS COMPRENDIDOS ENTRE " + numero1 + " Y " + numero2 + " : ");
         System.out.println(devolverNumeros(numero1,numero2));
         
     }
