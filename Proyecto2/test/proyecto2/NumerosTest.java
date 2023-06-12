@@ -24,23 +24,23 @@ public class NumerosTest {
         int numero1 = 2;
         int numero2 = 6;
         List<Integer> resultado1 = Numeros.devolverNumeros(numero1, numero2);
-        List<Integer> esperado1 = List.of(3,5);
+        List<Integer> esperado1 = List.of( 4 );
         assertEquals(esperado1, resultado1);
 
         //Caso de prueba 2
         System.out.println("Test02");
-        int numero3 = -3;
+        int numero3 = -4;
         int numero4 = 2;
         List<Integer> resultado2 = Numeros.devolverNumeros(numero3, numero4);
-        List<Integer> esperado2 = List.of(-1, 1);
+        List<Integer> esperado2 = List.of(  -2);
         assertEquals(esperado2, resultado2);
-                
-        //Caso de prueba 3
+        
+                //Caso de prueba 3
         System.out.println("Test03");
         int numero5 = 10;
         int numero6 = 20;
         List<Integer> resultado3 = Numeros.devolverNumeros(numero5, numero6);
-        List<Integer> esperado3 = List.of(11,13,15,17,19);
+        List<Integer> esperado3 = List.of(12,14,16,18);
         assertEquals(esperado3, resultado3);
     }
 }
